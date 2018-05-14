@@ -5,50 +5,38 @@
     height: 100%;
 }
 #side-bar-container{
-    width: 20%;
+    /* width: 20%; */
     height: 100%;
     background-color: aqua;
-    float: left;
+    /* float: left; */
 }
 #main-container{
-    width: 80%;
+    /* width: 80%; */
     height: 100%;
     background-color: blueviolet;
-    float: left;
+    /* float: left; */
 }
-/* setting the div to hold the buttons */
-.button-holder-social,
-.button-holder-email{
-    justify-content: center;
-    display: flex;
-    height: 56px;
+img{
+    display: block;
     width: 50%;
-    float: left;
+    margin: 0 auto;
+    margin-top: 10px;
 }
-.button-holder-email{
-    width: 100%;
-    margin: 10px 0;
-}
-/* fix for icon moving in the transition */
-div .btn-large i {
-    width: 100%;
+.center-text{
+    text-align: center;
 }
 .github-button,
-.github-button:hover{
+.github-button:hover {
     background-color: #24292e;
 }
+
 .linkedin-button,
-.linkedin-button:hover{
+.linkedin-button:hover {
     background-color: #0474B5;
 }
-.no-shadow,
-.no-shadow:hover {
-    box-shadow: none;
-}
-/* animation, from floating to button */
-.no-shadow:hover{
-    width: 100%;
-    height: 100%;
-    line-height: 100%;
-    border-radius: 0;
+.github-button,
+.linkedin-button,
+.email-button{
+    margin: 0 auto;
+    display: block;
 }

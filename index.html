@@ -13,26 +13,34 @@
     <script src="jquery/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-    <div id="container">
-        <div id="side-bar-container">
-            <div class="button-holder-email">
-                <a class="btn-floating btn-large waves-effect waves-light no-shadow email-button">
-                    <i class="far fa-envelope"></i>
-                </a>
+    <div id="container" class="row">
+        <div id="side-bar-container" class="col s12 m4 l2">
+            <div id="profile-holder">
+                <img class="circle responsive-img" src="assets/img/profile.png" alt="Profile">
+                <h3 class="center-text">Nome</h3>
+                <h4 class="center-text">Headline</h4>
             </div>
-            <div class="button-holder-social">
-                <a class="btn-floating btn-large waves-effect waves-light no-shadow github-button">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <div class="button-holder-social">
-                <a class="btn-floating btn-large waves-effect waves-light no-shadow linkedin-button">
-                    <i class="fab fa-linkedin"></i>
-                </a>
+            <hr>
+            <div id="buttons" class="row">
+                <div class="col s4">
+                    <a class="btn-floating btn-large waves-effect waves-light email-button">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="col s4">
+                    <a class="btn-floating btn-large waves-effect waves-light github-button">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="col s4">
+                    <a class="btn-floating btn-large waves-effect waves-light linkedin-button">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
             </div>
         </div>
-        <div id="main-container">
-
+        <div id="main-container" class="col s12 m8 l10">
+            <h1>dawad</h1>
         </div>
     </div>
     <script src="materialize/js/materialize.min.js"></script>
