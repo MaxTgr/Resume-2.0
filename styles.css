@@ -40,3 +40,52 @@ img{
     margin: 0 auto;
     display: block;
 }
+
+/**/
+/* setting the div to hold the buttons */
+
+.button-holder-social,
+.button-holder-email {
+    justify-content: center;
+    display: flex;
+    width: 200%;
+    height: 200%;
+    float: left;
+}
+
+/* fix for icon moving in the transition */
+
+div .btn-large i {
+    width: 100%;
+}
+
+.github-button,
+.github-button:hover {
+    background-color: #24292e;
+}
+
+.linkedin-button,
+.linkedin-button:hover {
+    background-color: #0474B5;
+}
+
+.no-shadow,
+.no-shadow:hover {
+    box-shadow: none;
+}
+
+/* animation, from floating to button */
+
+.no-shadow:hover {
+    width: 100%;
+    height: 200%;
+    line-height: 200%;
+    border-radius: 0;
+}
+
+.btn-floating .btn-large {
+    max-width: 112px;
+    max-height: 112px;
+    min-width: 56px;
+    min-height: 56px;
+}
