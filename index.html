@@ -19,32 +19,83 @@
     <div class="row">
         <div class="right col s12 m8 l6">
             <ul id="mainTabs" class="tabs">
-                <li class="tab col s4">
-                    <a class="active" href="#test1">Test 1</a>
+                <li class="tab col s4" id="tab1">
+                    <a href="#mainCard">
+                        <strong>Info</strong>
+                    </a>
                 </li>
-                <li class="tab col s4">
-                    <a href="#test2">Test 2</a>
+                <li class="tab col s4" id="tab2">
+                    <a href="#projectsCard">
+                        <strong>Projetos</strong>
+                    </a>
                 </li>
-                <li class="tab col s4">
-                    <a href="#test4">Test 4</a>
+                <li class="tab col s4" id="tab3">
+                    <a href="#contactCard">
+                        <strong>Contato</strong>
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 
     <div id="container" class="row">
-        <div class="z-depth-1 col s12 m10 offset-m1 l8 offset-l2" id="card">
-            <div class="row">
-                <img class="circle responsive-img col s12 m6 l4" src="assets/img/profile.png">
-                <div class="divider col hide-on-med-and-down l1"></div>
-                <div class="col s12 m6 l8">
-                    <p>bla bla bla</p>
+        <div class="z-depth-2 col s12 m10 offset-m1 l8 offset-l2" id="card">
+            <div id="mainCard">
+                <div class="row">
+                    <img class="circle responsive-img col s12 m6 l4" src="assets/img/profile.png">
+                    <div class="divider col hide-on-med-and-down l1"></div>
+                    <div class="col s12 m6 l7" id="cardContent">
+                        <h2 id="name">Max Sylver</h3>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h5>Desenvolvedor Android e Web, fullstack</h5>
+                                    </li>
+                                    <li>
+                                        <h4>Idade:
+                                            <span id="age"></span>
+                                        </h4>
+                                    </li>
+                                    <li>
+                                        <h4>Piauí, Brasil</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="mainButtons">
+                                <a class="waves-effect waves-light btn-large">
+                                    <i class="fab fa-github"></i> Github</a>
+                                <a class="waves-effect waves-light btn-large">
+                                    <i class="fab fa-linkedin"></i> Linkedin</a>
+                            </div>
+                    </div>
                 </div>
+            </div>
+            <div id="projectsCard">
+                <div class="row">
+                    <div class="modelCard col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/img/15.png">
+                                <span class="teal-text card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                    because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contactCard">
+
             </div>
         </div>
     </div>
 
     <script src="vendor/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="data.js"></script>
     <script src="main.js"></script>
 </body>
 
