@@ -1,91 +1,41 @@
-/* sidebar and main page size settings */
-#container{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-#side-bar-container{
-    /* width: 20%; */
-    height: 100%;
-    background-color: aqua;
-    /* float: left; */
-}
-#main-container{
-    /* width: 80%; */
-    height: 100%;
-    background-color: blueviolet;
-    /* float: left; */
-}
-img{
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-.center-text{
-    text-align: center;
-}
-.github-button,
-.github-button:hover {
-    background-color: #24292e;
+body{
+    background-image: url("assets/img/15.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 
-.linkedin-button,
-.linkedin-button:hover {
-    background-color: #0474B5;
-}
-.github-button,
-.linkedin-button,
-.email-button{
-    margin: 0 auto;
-    display: block;
+#card{
+    background-color: rgba(100, 100, 100, 0.9);
+    border-radius: 2px;
 }
 
-/**/
-/* setting the div to hold the buttons */
-
-.button-holder-social,
-.button-holder-email {
-    justify-content: center;
-    display: flex;
-    width: 200%;
-    height: 200%;
-    float: left;
+#card .divider{
+    height: 100px;
 }
 
-/* fix for icon moving in the transition */
-
-div .btn-large i {
-    width: 100%;
+#card img{
+    padding: 50px;
 }
 
-.github-button,
-.github-button:hover {
-    background-color: #24292e;
+.tabs{
+    background: none;
 }
 
-.linkedin-button,
-.linkedin-button:hover {
-    background-color: #0474B5;
+#mainTabs .indicator{
+    background-color: #7e57c2;
 }
 
-.no-shadow,
-.no-shadow:hover {
-    box-shadow: none;
+#mainTabs a{
+    color: #7e57c2;
 }
-
-/* animation, from floating to button */
-
-.no-shadow:hover {
-    width: 100%;
-    height: 200%;
-    line-height: 200%;
-    border-radius: 0;
-}
-
-.btn-floating .btn-large {
-    max-width: 112px;
-    max-height: 112px;
-    min-width: 56px;
-    min-height: 56px;
+  
+#mainTabs a:hover, a:active, a:focus, a:focus.active{
+    background-color: rgba(126,87,194, 0.2) !important;
 }
