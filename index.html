@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     <link rel="stylesheet" href="vendor/materialize/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+
     <script src="vendor/jquery/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="mydata.json"></script>
 </head>
@@ -20,17 +23,22 @@
     <div class="row">
         <div class="right col s12 m8 l6">
             <ul id="mainTabs" class="tabs">
-                <li class="tab col s4" id="tab1">
+                <li class="tab col s3" id="tab1">
                     <a href="#mainCard">
                         <strong>Info</strong>
                     </a>
                 </li>
-                <li class="tab col s4" id="tab2">
+                <li class="tab col s3" id="tab2">
                     <a href="#projectsCard">
                         <strong>Projetos</strong>
                     </a>
                 </li>
-                <li class="tab col s4" id="tab3">
+                <li class="tab col s3" id="tab3">
+                    <a href="#academicCard">
+                        <strong>Educação</strong>
+                    </a>
+                </li>
+                <li class="tab col s3" id="tab4">
                     <a href="#contactCard">
                         <strong>Contato</strong>
                     </a>
@@ -63,9 +71,9 @@
                                 </ul>
                             </div>
                             <div id="mainButtons">
-                                <a class="waves-effect waves-light btn-large">
+                                <a class="waves-effect waves-light btn-large" target="_blank" href="https://github.com/MaxTgr">
                                     <i class="fab fa-github"></i> Github</a>
-                                <a class="waves-effect waves-light btn-large">
+                                <a class="waves-effect waves-light btn-large" target="_blank" href="https://www.linkedin.com/in/raran-a-costa/">
                                     <i class="fab fa-linkedin"></i> Linkedin</a>
                             </div>
                     </div>
@@ -89,8 +97,22 @@
                     </div>
                 </div>
             </div>
-            <div id="contactCard">
+            <div id="academicCard" class="row">
 
+            </div>
+            <div id="contactCard" class="row">
+                <h1 class="teal-text">Me mande um email:</h1>
+                <div class="row">
+                    <form class="col s12" action="mailto:raranmariano@hotmail.com" method="POST">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea" name="body"></textarea>
+                                <label for="textarea1">Textarea</label>
+                            </div>
+                        </div>
+                        <input class="waves-effect waves-light btn-large" type="submit" value="Send">
+                    </form>
+                </div>
             </div>
         </div>
     </div>

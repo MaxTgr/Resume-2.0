@@ -10,6 +10,7 @@ body{
     image-rendering: pixelated;                 /* Chrome */
     image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+    font-family: 'Open Sans', sans-serif;
 }
 
 .tabs{
@@ -89,4 +90,8 @@ body{
 
 #contactCard{
     padding: 50px;
+}
+
+#contactCard a{
+    margin: 1%;
 }

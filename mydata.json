@@ -30,15 +30,15 @@ mydata = {
             "link": "https://t.me/ordis_prime_bot"
         }]
     },{
-        "title": "This Website!",
-        "desc": "Yes, this one!",
+        "title": "Resumes!",
+        "desc": "This one!",
         "img": "assets/cards/site.png",
         "buttons": [{
             "name": "Github",
             "link": "https://github.com/MaxTgr/Resume-2.0"
         }, {
-            "name": "Server",
-            "link": "https://github.com/MaxTgr/Express-tag-api"
+            "name": "Old-site",
+            "link": "https://github.com/MaxTgr/Resume"
         }]
     },{
         "title": "Ws-Unip",
