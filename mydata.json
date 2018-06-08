@@ -7,7 +7,7 @@ mydata = {
             "name": "Github",
             "link": "https://github.com/MaxTgr/Fez-Translate"
         }, {
-            "name": "Google play",
+            "name": "Playstore",
             "link": "https://play.google.com/store/apps/details?id=com.max.tgr.fezhelper"
         }]
     },{
@@ -39,6 +39,17 @@ mydata = {
         }, {
             "name": "Server",
             "link": "https://github.com/MaxTgr/Express-tag-api"
+        }]
+    },{
+        "title": "Ws-Unip",
+        "desc": "A webservice project",
+        "img": "assets/cards/ws.png",
+        "buttons": [{
+            "name": "Github",
+            "link": "https://github.com/MaxTgr/Ws-Unip-Android"
+        }, {
+            "name": "Server",
+            "link": "https://github.com/MaxTgr/Ws-Unip"
         }]
     }]
 }
