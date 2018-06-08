@@ -1,4 +1,4 @@
-var json = JSON.parse(data);
+var json = mydata;
 
 $(document).ready(function(){
     $('.tabs').tabs();

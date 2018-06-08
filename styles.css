@@ -22,12 +22,13 @@ body{
 
 #mainTabs a{
     color: #004d40;
-
 }
   
 #mainTabs a:hover, a:active, a:focus, a:focus.active{
     background-color: rgba(126,87,194, 0.2) !important;
 }
+
+
 
 #card{
     margin-top: 50px;
@@ -39,9 +40,9 @@ body{
     padding: 0;
 }
 
-#card img{
+#profileImg{
     padding: 50px;
-    overflow:auto;
+    overflow: auto;
 }
 
 #mainCard .divider{
@@ -68,6 +69,14 @@ body{
 
 #projectsCard{
     padding: 50px;
+}
+
+#projectsCard .card-content p{
+    height: 45px;
+}
+
+#projectsCard .card-action{
+    height: 55px;
 }
 
 #projectsCard .card .card-action a{

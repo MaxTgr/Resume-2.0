@@ -1,0 +1,44 @@
+mydata = {
+    "cards": [{
+        "title": "Fez Translate",
+        "desc": "An android app for translating the language on the game Fez",
+        "img": "assets/cards/fez.png",
+        "buttons": [{
+            "name": "Github",
+            "link": "https://github.com/MaxTgr/Fez-Translate"
+        }, {
+            "name": "Google play",
+            "link": "https://play.google.com/store/apps/details?id=com.max.tgr.fezhelper"
+        }]
+    },{
+        "title": "Errow",
+        "desc": "A simple game in development using corona sdk",
+        "img": "assets/cards/errow.png",
+        "buttons": [{
+            "name": "Github",
+            "link": "https://github.com/MaxTgr/Errow"
+        }]
+    },{
+        "title": "Ordis Prime Bot",
+        "desc": "A telegram bot helper for warframe",
+        "img": "assets/cards/ordis.png",
+        "buttons": [{
+            "name": "Github",
+            "link": "https://github.com/MaxTgr/Ordis-Prime"
+        }, {
+            "name": "Telegram",
+            "link": "https://t.me/ordis_prime_bot"
+        }]
+    },{
+        "title": "This Website!",
+        "desc": "Yes, this one!",
+        "img": "assets/cards/site.png",
+        "buttons": [{
+            "name": "Github",
+            "link": "https://github.com/MaxTgr/Resume-2.0"
+        }, {
+            "name": "Server",
+            "link": "https://github.com/MaxTgr/Express-tag-api"
+        }]
+    }]
+}
