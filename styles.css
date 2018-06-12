@@ -17,6 +17,10 @@ body{
     background: none;
 }
 
+.border-teal{
+    border-color: #009688;
+}
+
 #mainTabs .indicator{
     background-color: #009688;
 }
@@ -28,8 +32,6 @@ body{
 #mainTabs a:hover, a:active, a:focus, a:focus.active{
     background-color: rgba(126,87,194, 0.2) !important;
 }
-
-
 
 #card{
     margin-top: 50px;
@@ -59,11 +61,6 @@ body{
     padding: 25px;
 }
 
-#name{
-    padding-left: 5px;
-    border-left: 2px solid #555;
-}
-
 #mainButtons{
     padding-top: 10px;
 }
@@ -86,6 +83,36 @@ body{
 
 .modelCard{
     display: none;
+}
+
+.modelInfo{
+    display: none;
+}
+
+#academicCard blockquote{
+    padding-left: 0;
+}
+
+#academicCard .icons{
+    margin: 10px;
+}
+
+#academicCard a{
+    transition: color .5s ease;
+}
+
+#academicCard a:hover{
+    color: #009688;
+}
+
+#academicCard .icons i{
+    font-size: 3rem;
+    transition: color .5s ease;
+    color: #546E7A;
+}
+
+#academicCard .icons i:hover{
+    color: #009688;
 }
 
 #contactCard{

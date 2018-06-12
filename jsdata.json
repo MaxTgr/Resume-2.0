@@ -1,4 +1,4 @@
-jsdata = {
+projdata = {
     "cards": [{
         "title": "Fez Translate",
         "desc": "Um aplicativo android para traduzir a linguagem do jogo Fez",
@@ -52,4 +52,63 @@ jsdata = {
             "link": "https://github.com/MaxTgr/Ws-Unip"
         }]
     }]
+}
+
+edudata = {
+    "info": [
+        {
+            "title": "Gracom, school of visual effects",
+            "link": "https://www.gracomonline.com.br/site/",
+            "subtitle": "Curso de design gráfico e web design da Adobe",
+            "icons": [
+                "photoshop",
+                "illustrator",
+                "dreamweaver"
+            ]
+        },{
+            "title": "Google + Udacity",
+            "link": "https://www.udacity.com/google",
+            "subtitle": "Cursos oficiais Google",
+            "icons": [
+                "java",
+                "android"
+            ]
+        },{
+            "title": "SoloLearn",
+            "link": "https://www.sololearn.com/",
+            "subtitle": "Cursos de introdução a programação",
+            "icons": [
+                "java",
+                "javascript_badge"
+            ]
+        },{
+            "title": "CodeAcademy",
+            "link": "https://www.codecademy.com/learn",
+            "subtitle": "Desenvolvimento Web",
+            "icons": [
+                "html5",
+                "css3",
+                "javascript_badge"
+            ]
+        },{
+            "title": "Ben Tristem @ Udemy",
+            "link": "https://www.udemy.com/unitycourse",
+            "subtitle": "Curso de desenvolvimento de games",
+            "icons": [
+                "unity_small"
+            ]
+        },{
+            "title": "Colt Steele @ Udemy",
+            "link": "https://www.udemy.com/the-web-developer-bootcamp",
+            "subtitle": "Bootcamp de desenvolvimento Web",
+            "icons": [
+                "html5",
+                "css3",
+                "javascript_badge",
+                "bootstrap",
+                "jquery",
+                "nodejs_small"
+            ]
+        }
+    ]
 }
