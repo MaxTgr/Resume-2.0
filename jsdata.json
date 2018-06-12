@@ -1,7 +1,7 @@
-mydata = {
+jsdata = {
     "cards": [{
         "title": "Fez Translate",
-        "desc": "An android app for translating the language on the game Fez",
+        "desc": "Um aplicativo android para traduzir a linguagem do jogo Fez",
         "img": "assets/cards/fez.png",
         "buttons": [{
             "name": "Github",
@@ -12,7 +12,7 @@ mydata = {
         }]
     },{
         "title": "Errow",
-        "desc": "A simple game in development using corona sdk",
+        "desc": "Um simples jogo feito em Corona Sdk",
         "img": "assets/cards/errow.png",
         "buttons": [{
             "name": "Github",
@@ -20,7 +20,7 @@ mydata = {
         }]
     },{
         "title": "Ordis Prime Bot",
-        "desc": "A telegram bot helper for warframe",
+        "desc": "Um bot de telgram para informações de Warframe",
         "img": "assets/cards/ordis.png",
         "buttons": [{
             "name": "Github",
@@ -31,7 +31,7 @@ mydata = {
         }]
     },{
         "title": "Resumes!",
-        "desc": "This one!",
+        "desc": "Meus simples sites",
         "img": "assets/cards/site.png",
         "buttons": [{
             "name": "Github",
@@ -42,7 +42,7 @@ mydata = {
         }]
     },{
         "title": "Ws-Unip",
-        "desc": "A webservice project",
+        "desc": "Um projeto de webservice (app + servidor)",
         "img": "assets/cards/ws.png",
         "buttons": [{
             "name": "Github",
