@@ -20,7 +20,7 @@ projdata = {
         }]
     },{
         "title": "Ordis Prime Bot",
-        "desc": "Um bot de telgram para informações de Warframe",
+        "desc": "Um bot de telegram para informações de Warframe",
         "img": "assets/cards/ordis.png",
         "buttons": [{
             "name": "Github",
@@ -31,7 +31,7 @@ projdata = {
         }]
     },{
         "title": "Resumes!",
-        "desc": "Meus simples sites",
+        "desc": "Meus sites",
         "img": "assets/cards/site.png",
         "buttons": [{
             "name": "Github",
