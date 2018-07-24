@@ -25,6 +25,10 @@ body{
     background-color: #009688;
 }
 
+#mainTabs {
+    overflow: hidden;
+}
+
 #mainTabs a{
     color: #004d40;
 }
