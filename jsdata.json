@@ -47,9 +47,6 @@ projdata = {
         "buttons": [{
             "name": "Github",
             "link": "https://github.com/MaxTgr/Ws-Unip-Android"
-        }, {
-            "name": "Server",
-            "link": "https://github.com/MaxTgr/Ws-Unip"
         }]
     }]
 }
